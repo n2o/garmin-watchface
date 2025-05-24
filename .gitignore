@@ -22,5 +22,3 @@
 # Beispiel für Konfigurationsdatei mit API-Schlüsseln
 config.mc
 config.json
-
-bin/
