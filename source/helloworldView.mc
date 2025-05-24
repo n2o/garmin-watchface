@@ -48,8 +48,9 @@ class helloworldView extends WatchUi.WatchFace {
         View.onUpdate(dc);
 
         // Draw the Lilie image
-        // var lilie = WatchUi.loadResource(Rez.Drawables.Lilie);
-        // dc.drawBitmap( (dc.getWidth() - lilie.getWidth()) / 2, (dc.getHeight() - lilie.getHeight()) / 2, lilie);
+        var lilie = Application.loadResource( Rez.Drawables.Lilie ) as BitmapResource;
+        dc.drawBitmap( (dc.getWidth() - lilie.getWidth()) / 2, (dc.getHeight() - lilie.getHeight()) / 2, lilie);
+        // dc.drawBitmap( 10,10, lilie);
 
         // Get screen dimensions
         var width = dc.getWidth();
