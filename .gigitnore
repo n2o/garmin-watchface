@@ -1,0 +1,24 @@
+# Build-Ordner
+/bin
+/bin/
+/bin/*
+/bin/mir/
+/bin/internal-mir/
+
+# Simulator- und temporäre Dateien
+*.prg
+*.iq
+*.tmp
+*.log
+
+# Schlüsseldateien (z.B. Entwickler-Key)
+*.pem
+*.der
+*.key
+
+# Persönliche Einstellungen und Konfigurationsdateien
+*.cfg
+
+# Beispiel für Konfigurationsdatei mit API-Schlüsseln
+config.mc
+config.json
