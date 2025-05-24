@@ -46,6 +46,43 @@ class helloworldView extends WatchUi.WatchFace {
 
         // Call the parent onUpdate function to redraw the layout
         View.onUpdate(dc);
+
+        // Get screen dimensions
+        var width = dc.getWidth();
+        var height = dc.getHeight();
+        var centerX = width / 2;
+        var centerY = height / 2;
+
+        // Set hand properties
+        dc.setPenWidth(3);
+        dc.setColor(Graphics.COLOR_RED, Graphics.COLOR_TRANSPARENT);
+
+        // Calculate hour hand position
+        // 360 degrees / 12 hours = 30 degrees per hour
+        // 30 degrees / 60 minutes = 0.5 degrees per minute
+        var hourAngle = Math.toRadians((hours % 12) * 30 + clockTime.min * 0.5 - 90); // -90 to make 12 o'clock top
+        var hourHandLength = width / 4;
+        var hourX = centerX + hourHandLength * Math.cos(hourAngle);
+        var hourY = centerY + hourHandLength * Math.sin(hourAngle);
+        dc.drawLine(centerX, centerY, hourX, hourY);
+
+        // Calculate minute hand position
+        // 360 degrees / 60 minutes = 6 degrees per minute
+        var minuteAngle = Math.toRadians(clockTime.min * 6 - 90); // -90 to make 12 o'clock top
+        var minuteHandLength = width / 2 - 10; // Slightly shorter than half width
+        var minuteX = centerX + minuteHandLength * Math.cos(minuteAngle);
+        var minuteY = centerY + minuteHandLength * Math.sin(minuteAngle);
+        dc.drawLine(centerX, centerY, minuteX, minuteY);
+
+        // Calculate second hand position
+        // 360 degrees / 60 seconds = 6 degrees per second
+        var secondAngle = Math.toRadians(clockTime.sec * 6 - 90); // -90 to make 12 o'clock top
+        var secondHandLength = width / 2 - 5; // Slightly longer than minute hand
+        var secondX = centerX + secondHandLength * Math.cos(secondAngle);
+        var secondY = centerY + secondHandLength * Math.sin(secondAngle);
+        // Optionally, set a different color for the second hand
+        // dc.setColor(Graphics.COLOR_BLUE, Graphics.COLOR_TRANSPARENT);
+        dc.drawLine(centerX, centerY, secondX, secondY);
     }
 
     // Called when this View is removed from the screen. Save the

@@ -32,20 +32,40 @@
         <entry filename="/Users/n2o/repos/garmin/helloworld/source/helloworldView.mc" id="14" lineNum="43" parent="globals/helloworldView" pc="268435831" symbol="onUpdate"/>
         <entry filename="/Users/n2o/repos/garmin/helloworld/source/helloworldView.mc" id="14" lineNum="44" parent="globals/helloworldView" pc="268435855" symbol="onUpdate"/>
         <entry filename="/Users/n2o/repos/garmin/helloworld/source/helloworldView.mc" id="14" lineNum="45" parent="globals/helloworldView" pc="268435882" symbol="onUpdate"/>
-        <entry filename="/Users/n2o/repos/garmin/helloworld/source/helloworldView.mc" id="14" lineNum="46" parent="globals/helloworldView" pc="268435894" symbol="onUpdate"/>
-        <entry filename="/Users/n2o/repos/garmin/helloworld/source/helloworldView.mc" id="14" lineNum="49" parent="globals/helloworldView" pc="268435909" symbol="onUpdate"/>
-        <entry filename="/Users/n2o/repos/garmin/helloworld/source/helloworldApp.mc" id="15" lineNum="12" parent="globals/helloworldApp" pc="268435930" symbol="onStart"/>
-        <entry filename="/Users/n2o/repos/garmin/helloworld/source/helloworldApp.mc" id="16" lineNum="25" parent="globals/helloworldApp" pc="268435933" symbol="onSettingsChanged"/>
-        <entry filename="/Users/n2o/repos/garmin/helloworld/source/helloworldApp.mc" id="16" lineNum="26" parent="globals/helloworldApp" pc="268435935" symbol="onSettingsChanged"/>
-        <entry filename="/Users/n2o/repos/garmin/helloworld/source/helloworldApp.mc" id="17" lineNum="20" parent="globals/helloworldApp" pc="268435947" symbol="getInitialView"/>
-        <entry filename="/Users/n2o/repos/garmin/helloworld/source/helloworldApp.mc" id="17" lineNum="21" parent="globals/helloworldApp" pc="268435949" symbol="getInitialView"/>
-        <entry filename="/Users/n2o/repos/garmin/helloworld/source/helloworldApp.mc" id="18" lineNum="7" parent="globals/helloworldApp" pc="268435979" symbol="initialize"/>
-        <entry filename="/Users/n2o/repos/garmin/helloworld/source/helloworldApp.mc" id="18" lineNum="8" parent="globals/helloworldApp" pc="268435981" symbol="initialize"/>
-        <entry filename="/Users/n2o/repos/garmin/helloworld/source/helloworldApp.mc" id="19" lineNum="16" parent="globals/helloworldApp" pc="268435994" symbol="onStop"/>
-        <entry filename="/Users/n2o/repos/garmin/helloworld/bin/gen/006-B4532-00/source/Rez.mcgen" id="20" lineNum="13" parent="globals/Rez/Layouts" pc="268435997" symbol="WatchFace"/>
-        <entry filename="/Users/n2o/repos/garmin/helloworld/bin/gen/006-B4532-00/source/Rez.mcgen" id="20" lineNum="14" parent="globals/Rez/Layouts" pc="268436008" symbol="WatchFace"/>
-        <entry filename="/Users/n2o/repos/garmin/helloworld/bin/gen/006-B4532-00/source/Rez.mcgen" id="20" lineNum="16" parent="globals/Rez/Layouts" pc="268436032" symbol="WatchFace"/>
-        <entry filename="/Users/n2o/repos/garmin/helloworld/bin/gen/006-B4532-00/source/Rez.mcgen" id="20" lineNum="18" parent="globals/Rez/Layouts" pc="268436136" symbol="WatchFace"/>
+        <entry filename="/Users/n2o/repos/garmin/helloworld/source/helloworldView.mc" id="14" lineNum="48" parent="globals/helloworldView" pc="268435894" symbol="onUpdate"/>
+        <entry filename="/Users/n2o/repos/garmin/helloworld/source/helloworldView.mc" id="14" lineNum="51" parent="globals/helloworldView" pc="268435914" symbol="onUpdate"/>
+        <entry filename="/Users/n2o/repos/garmin/helloworld/source/helloworldView.mc" id="14" lineNum="52" parent="globals/helloworldView" pc="268435923" symbol="onUpdate"/>
+        <entry filename="/Users/n2o/repos/garmin/helloworld/source/helloworldView.mc" id="14" lineNum="53" parent="globals/helloworldView" pc="268435932" symbol="onUpdate"/>
+        <entry filename="/Users/n2o/repos/garmin/helloworld/source/helloworldView.mc" id="14" lineNum="54" parent="globals/helloworldView" pc="268435939" symbol="onUpdate"/>
+        <entry filename="/Users/n2o/repos/garmin/helloworld/source/helloworldView.mc" id="14" lineNum="57" parent="globals/helloworldView" pc="268435946" symbol="onUpdate"/>
+        <entry filename="/Users/n2o/repos/garmin/helloworld/source/helloworldView.mc" id="14" lineNum="58" parent="globals/helloworldView" pc="268435958" symbol="onUpdate"/>
+        <entry filename="/Users/n2o/repos/garmin/helloworld/source/helloworldView.mc" id="14" lineNum="63" parent="globals/helloworldView" pc="268435975" symbol="onUpdate"/>
+        <entry filename="/Users/n2o/repos/garmin/helloworld/source/helloworldView.mc" id="14" lineNum="64" parent="globals/helloworldView" pc="268436013" symbol="onUpdate"/>
+        <entry filename="/Users/n2o/repos/garmin/helloworld/source/helloworldView.mc" id="14" lineNum="65" parent="globals/helloworldView" pc="268436020" symbol="onUpdate"/>
+        <entry filename="/Users/n2o/repos/garmin/helloworld/source/helloworldView.mc" id="14" lineNum="66" parent="globals/helloworldView" pc="268436042" symbol="onUpdate"/>
+        <entry filename="/Users/n2o/repos/garmin/helloworld/source/helloworldView.mc" id="14" lineNum="67" parent="globals/helloworldView" pc="268436064" symbol="onUpdate"/>
+        <entry filename="/Users/n2o/repos/garmin/helloworld/source/helloworldView.mc" id="14" lineNum="71" parent="globals/helloworldView" pc="268436082" symbol="onUpdate"/>
+        <entry filename="/Users/n2o/repos/garmin/helloworld/source/helloworldView.mc" id="14" lineNum="72" parent="globals/helloworldView" pc="268436108" symbol="onUpdate"/>
+        <entry filename="/Users/n2o/repos/garmin/helloworld/source/helloworldView.mc" id="14" lineNum="73" parent="globals/helloworldView" pc="268436118" symbol="onUpdate"/>
+        <entry filename="/Users/n2o/repos/garmin/helloworld/source/helloworldView.mc" id="14" lineNum="74" parent="globals/helloworldView" pc="268436140" symbol="onUpdate"/>
+        <entry filename="/Users/n2o/repos/garmin/helloworld/source/helloworldView.mc" id="14" lineNum="75" parent="globals/helloworldView" pc="268436162" symbol="onUpdate"/>
+        <entry filename="/Users/n2o/repos/garmin/helloworld/source/helloworldView.mc" id="14" lineNum="79" parent="globals/helloworldView" pc="268436180" symbol="onUpdate"/>
+        <entry filename="/Users/n2o/repos/garmin/helloworld/source/helloworldView.mc" id="14" lineNum="80" parent="globals/helloworldView" pc="268436206" symbol="onUpdate"/>
+        <entry filename="/Users/n2o/repos/garmin/helloworld/source/helloworldView.mc" id="14" lineNum="81" parent="globals/helloworldView" pc="268436216" symbol="onUpdate"/>
+        <entry filename="/Users/n2o/repos/garmin/helloworld/source/helloworldView.mc" id="14" lineNum="82" parent="globals/helloworldView" pc="268436238" symbol="onUpdate"/>
+        <entry filename="/Users/n2o/repos/garmin/helloworld/source/helloworldView.mc" id="14" lineNum="85" parent="globals/helloworldView" pc="268436260" symbol="onUpdate"/>
+        <entry filename="/Users/n2o/repos/garmin/helloworld/source/helloworldApp.mc" id="15" lineNum="12" parent="globals/helloworldApp" pc="268436279" symbol="onStart"/>
+        <entry filename="/Users/n2o/repos/garmin/helloworld/source/helloworldApp.mc" id="16" lineNum="25" parent="globals/helloworldApp" pc="268436282" symbol="onSettingsChanged"/>
+        <entry filename="/Users/n2o/repos/garmin/helloworld/source/helloworldApp.mc" id="16" lineNum="26" parent="globals/helloworldApp" pc="268436284" symbol="onSettingsChanged"/>
+        <entry filename="/Users/n2o/repos/garmin/helloworld/source/helloworldApp.mc" id="17" lineNum="20" parent="globals/helloworldApp" pc="268436296" symbol="getInitialView"/>
+        <entry filename="/Users/n2o/repos/garmin/helloworld/source/helloworldApp.mc" id="17" lineNum="21" parent="globals/helloworldApp" pc="268436298" symbol="getInitialView"/>
+        <entry filename="/Users/n2o/repos/garmin/helloworld/source/helloworldApp.mc" id="18" lineNum="7" parent="globals/helloworldApp" pc="268436328" symbol="initialize"/>
+        <entry filename="/Users/n2o/repos/garmin/helloworld/source/helloworldApp.mc" id="18" lineNum="8" parent="globals/helloworldApp" pc="268436330" symbol="initialize"/>
+        <entry filename="/Users/n2o/repos/garmin/helloworld/source/helloworldApp.mc" id="19" lineNum="16" parent="globals/helloworldApp" pc="268436343" symbol="onStop"/>
+        <entry filename="/Users/n2o/repos/garmin/helloworld/bin/gen/006-B4532-00/source/Rez.mcgen" id="20" lineNum="13" parent="globals/Rez/Layouts" pc="268436346" symbol="WatchFace"/>
+        <entry filename="/Users/n2o/repos/garmin/helloworld/bin/gen/006-B4532-00/source/Rez.mcgen" id="20" lineNum="14" parent="globals/Rez/Layouts" pc="268436357" symbol="WatchFace"/>
+        <entry filename="/Users/n2o/repos/garmin/helloworld/bin/gen/006-B4532-00/source/Rez.mcgen" id="20" lineNum="16" parent="globals/Rez/Layouts" pc="268436381" symbol="WatchFace"/>
+        <entry filename="/Users/n2o/repos/garmin/helloworld/bin/gen/006-B4532-00/source/Rez.mcgen" id="20" lineNum="18" parent="globals/Rez/Layouts" pc="268436469" symbol="WatchFace"/>
     </pcToLineNum>
     <symbolTable>
         <entry id="8388639" module="true" symbol="Graphics"/>
@@ -104,15 +124,31 @@
         <entry endPc="268435573" name="dictionary" stackId="1" startPc="268435540"/>
         <entry arg="true" endPc="268435616" name="dc" stackId="1" startPc="268435575"/>
         <entry arg="true" endPc="268435652" name="dc" stackId="1" startPc="268435617"/>
-        <entry arg="true" endPc="268435929" name="dc" stackId="1" startPc="268435668"/>
-        <entry endPc="268435928" name="timeFormat" stackId="2" startPc="268435671"/>
-        <entry endPc="268435928" name="clockTime" stackId="3" startPc="268435671"/>
-        <entry endPc="268435928" name="hours" stackId="4" startPc="268435671"/>
-        <entry endPc="268435928" name="timeString" stackId="5" startPc="268435671"/>
-        <entry endPc="268435928" name="view" stackId="6" startPc="268435671"/>
-        <entry arg="true" endPc="268436150" name="dc" stackId="1" startPc="268435997"/>
-        <entry endPc="268436150" name="rez_cmp_local_custom_drawable_11939594661139614796" stackId="2" startPc="268436008"/>
-        <entry endPc="268436150" name="rez_cmp_local_text_TimeLabel" stackId="3" startPc="268436008"/>
+        <entry arg="true" endPc="268436278" name="dc" stackId="1" startPc="268435668"/>
+        <entry endPc="268436277" name="timeFormat" stackId="2" startPc="268435671"/>
+        <entry endPc="268436277" name="clockTime" stackId="3" startPc="268435671"/>
+        <entry endPc="268436277" name="hours" stackId="4" startPc="268435671"/>
+        <entry endPc="268436277" name="timeString" stackId="5" startPc="268435671"/>
+        <entry endPc="268436277" name="view" stackId="6" startPc="268435671"/>
+        <entry endPc="268436277" name="width" stackId="7" startPc="268435671"/>
+        <entry endPc="268436277" name="height" stackId="8" startPc="268435671"/>
+        <entry endPc="268436277" name="centerX" stackId="9" startPc="268435671"/>
+        <entry endPc="268436277" name="centerY" stackId="10" startPc="268435671"/>
+        <entry endPc="268436277" name="hourAngle" stackId="11" startPc="268435671"/>
+        <entry endPc="268436277" name="hourHandLength" stackId="12" startPc="268435671"/>
+        <entry endPc="268436277" name="hourX" stackId="13" startPc="268435671"/>
+        <entry endPc="268436277" name="hourY" stackId="14" startPc="268435671"/>
+        <entry endPc="268436277" name="minuteAngle" stackId="15" startPc="268435671"/>
+        <entry endPc="268436277" name="minuteHandLength" stackId="16" startPc="268435671"/>
+        <entry endPc="268436277" name="minuteX" stackId="17" startPc="268435671"/>
+        <entry endPc="268436277" name="minuteY" stackId="18" startPc="268435671"/>
+        <entry endPc="268436277" name="secondAngle" stackId="19" startPc="268435671"/>
+        <entry endPc="268436277" name="secondHandLength" stackId="20" startPc="268435671"/>
+        <entry endPc="268436277" name="secondX" stackId="21" startPc="268435671"/>
+        <entry endPc="268436277" name="secondY" stackId="22" startPc="268435671"/>
+        <entry arg="true" endPc="268436483" name="dc" stackId="1" startPc="268436346"/>
+        <entry endPc="268436483" name="rez_cmp_local_custom_drawable_11939594661139614796" stackId="2" startPc="268436357"/>
+        <entry endPc="268436483" name="rez_cmp_local_text_TimeLabel" stackId="3" startPc="268436357"/>
     </localVars>
     <deviceInfo deviceVersion="decc989a3aea752762ecdbe6b3262a92939e1b36" partNumber="006-B4532-00"/>
     <annotations>
@@ -189,28 +225,28 @@
         <functionEntry accessMode="public" name="onHide" parent="helloworldView">
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268435929" name="onUpdate" parent="helloworldView" startPc="268435668">
+        <functionEntry accessMode="public" endPc="268436278" name="onUpdate" parent="helloworldView" startPc="268435668">
             <param id="dc"/>
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268435932" name="onStart" parent="helloworldApp" startPc="268435930">
+        <functionEntry accessMode="public" endPc="268436281" name="onStart" parent="helloworldApp" startPc="268436279">
             <param id="state"/>
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268435946" name="onSettingsChanged" parent="helloworldApp" startPc="268435933">
+        <functionEntry accessMode="public" endPc="268436295" name="onSettingsChanged" parent="helloworldApp" startPc="268436282">
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268435978" name="getInitialView" parent="helloworldApp" startPc="268435947">
+        <functionEntry accessMode="public" endPc="268436327" name="getInitialView" parent="helloworldApp" startPc="268436296">
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268435993" name="initialize" parent="helloworldApp" startPc="268435979">
+        <functionEntry accessMode="public" endPc="268436342" name="initialize" parent="helloworldApp" startPc="268436328">
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268435996" name="onStop" parent="helloworldApp" startPc="268435994">
+        <functionEntry accessMode="public" endPc="268436345" name="onStop" parent="helloworldApp" startPc="268436343">
             <param id="state"/>
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268436150" name="WatchFace" parent="Layouts" startPc="268435997">
+        <functionEntry accessMode="public" endPc="268436483" name="WatchFace" parent="Layouts" startPc="268436346">
             <param id="dc"/>
             <documentation/>
         </functionEntry>

@@ -70,53 +70,45 @@ _Users_n2o_repos_garmin_helloworld_bin_gen_006_B4532_00_source_Rez_mcgen_13_73_1
             %tmp.29 = const :locY;
             symbol [ locY %tmp.29 16 141 145 const ];
             %tmp.30 = 260;
-            %tmp.31 = lgetv %dc;
-            symbol [ dc %tmp.31 16 155 157 ];
-            symbol [ getFontHeight %tmp.32 16 158 171 ];
-            %tmp.32 = getv function %tmp.31 :getFontHeight;
-            symbol [ Graphics %tmp.33 16 172 180 ];
-            %tmp.33 = getm $.Toybox.Graphics;
-            symbol [ FONT_LARGE %tmp.34 16 181 191 ];
-            %tmp.34 = getv %tmp.33 :FONT_LARGE;
-            %tmp.35 = invoke %tmp.31 %tmp.32(%tmp.34);
-            %tmp.36 = sub %tmp.30 %tmp.35;
-            %tmp.37 = 0.5;
-            %tmp.38 = mul %tmp.36 %tmp.37;
-            %tmp.39 = dup %tmp.27;
-            %tmp.40 = aputv %tmp.39 %tmp.29 %tmp.38;
-            %tmp.42 = const :justification;
-            symbol [ justification %tmp.42 16 203 216 const ];
-            symbol [ Graphics %tmp.43 16 218 226 ];
-            %tmp.43 = getm $.Toybox.Graphics;
-            symbol [ TEXT_JUSTIFY_CENTER %tmp.44 16 227 246 ];
-            %tmp.44 = getv %tmp.43 :TEXT_JUSTIFY_CENTER;
-            %tmp.45 = dup %tmp.40;
-            %tmp.46 = aputv %tmp.45 %tmp.42 %tmp.44;
-            %tmp.48 = const :font;
-            symbol [ font %tmp.48 16 249 253 const ];
-            symbol [ Graphics %tmp.49 16 255 263 ];
-            %tmp.49 = getm $.Toybox.Graphics;
-            symbol [ FONT_LARGE %tmp.50 16 264 274 ];
-            %tmp.50 = getv %tmp.49 :FONT_LARGE;
-            %tmp.51 = dup %tmp.46;
-            %tmp.52 = aputv %tmp.51 %tmp.48 %tmp.50;
-            %tmp.5 = newc %tmp.8 (%tmp.52);
+            %tmp.31 = 75;
+            %tmp.32 = 100.0;
+            %tmp.33 = div %tmp.31 %tmp.32;
+            %tmp.34 = mul %tmp.30 %tmp.33;
+            %tmp.35 = dup %tmp.27;
+            %tmp.36 = aputv %tmp.35 %tmp.29 %tmp.34;
+            %tmp.38 = const :justification;
+            symbol [ justification %tmp.38 16 170 183 const ];
+            symbol [ Graphics %tmp.39 16 185 193 ];
+            %tmp.39 = getm $.Toybox.Graphics;
+            symbol [ TEXT_JUSTIFY_CENTER %tmp.40 16 194 213 ];
+            %tmp.40 = getv %tmp.39 :TEXT_JUSTIFY_CENTER;
+            %tmp.41 = dup %tmp.36;
+            %tmp.42 = aputv %tmp.41 %tmp.38 %tmp.40;
+            %tmp.44 = const :font;
+            symbol [ font %tmp.44 16 216 220 const ];
+            symbol [ Graphics %tmp.45 16 222 230 ];
+            %tmp.45 = getm $.Toybox.Graphics;
+            symbol [ FONT_SMALL %tmp.46 16 231 241 ];
+            %tmp.46 = getv %tmp.45 :FONT_SMALL;
+            %tmp.47 = dup %tmp.42;
+            %tmp.48 = aputv %tmp.47 %tmp.44 %tmp.46;
+            %tmp.5 = newc %tmp.8 (%tmp.48);
             lputv %rez_cmp_local_text_TimeLabel.2 %tmp.5;
             symbol [ rez_cmp_local_text_TimeLabel %rez_cmp_local_text_TimeLabel.2 16 16 44 ];
 [ "/Users/n2o/repos/garmin/helloworld/bin/gen/006-B4532-00/source/Rez.mcgen" 18 12 ]
-            %tmp.53 = newa 2 Array<WatchUi.Drawable>;
-            symbol [ Array %tmp.53 18 105 110 ];
-            symbol [ WatchUi %tmp.53 18 111 118 ];
-            symbol [ Drawable %tmp.53 18 119 127 ];
-            %tmp.54 = lgetv %rez_cmp_local_custom_drawable_11939594661139614796.1;
-            symbol [ rez_cmp_local_custom_drawable_11939594661139614796 %tmp.54 18 20 70 ];
-            %tmp.55 = dup %tmp.53;
-            %tmp.56 = aputv %tmp.55 0 %tmp.54;
-            %tmp.57 = lgetv %rez_cmp_local_text_TimeLabel.2;
-            symbol [ rez_cmp_local_text_TimeLabel %tmp.57 18 72 100 ];
-            %tmp.58 = dup %tmp.56;
-            %tmp.59 = aputv %tmp.58 1 %tmp.57;
-            ret %tmp.59;
+            %tmp.49 = newa 2 Array<WatchUi.Drawable>;
+            symbol [ Array %tmp.49 18 105 110 ];
+            symbol [ WatchUi %tmp.49 18 111 118 ];
+            symbol [ Drawable %tmp.49 18 119 127 ];
+            %tmp.50 = lgetv %rez_cmp_local_custom_drawable_11939594661139614796.1;
+            symbol [ rez_cmp_local_custom_drawable_11939594661139614796 %tmp.50 18 20 70 ];
+            %tmp.51 = dup %tmp.49;
+            %tmp.52 = aputv %tmp.51 0 %tmp.50;
+            %tmp.53 = lgetv %rez_cmp_local_text_TimeLabel.2;
+            symbol [ rez_cmp_local_text_TimeLabel %tmp.53 18 72 100 ];
+            %tmp.54 = dup %tmp.52;
+            %tmp.55 = aputv %tmp.54 1 %tmp.53;
+            ret %tmp.55;
 _Users_n2o_repos_garmin_helloworld_bin_gen_006_B4532_00_source_Rez_mcgen_13_73_19_8_stop:
         }
     }
@@ -234,22 +226,22 @@ _Users_n2o_repos_garmin_helloworld_bin_gen_006_B4532_00_source_Rez_mcgen_13_73_1
             [ @file = "/Users/n2o/repos/garmin/helloworld/bin/gen/006-B4532-00/source/Rez.mcgen"; @line = 75; ]
             <init> {
 [ "/Users/n2o/repos/garmin/helloworld/bin/gen/006-B4532-00/source/Rez.mcgen" 76 18 ]
-                symbol [ Graphics %tmp.60 76 34 42 ];
-                %tmp.60 = getm $.Toybox.Graphics;
-                symbol [ TEXT_JUSTIFY_CENTER %tmp.61 76 43 62 ];
-                %tmp.61 = getv %tmp.60 :TEXT_JUSTIFY_CENTER;
-                symbol [ Graphics %tmp.62 76 63 71 ];
-                %tmp.62 = getm $.Toybox.Graphics;
-                symbol [ TEXT_JUSTIFY_VCENTER %tmp.63 76 72 92 ];
-                %tmp.63 = getv %tmp.62 :TEXT_JUSTIFY_VCENTER;
-                %tmp.64 = bitor %tmp.61 %tmp.63;
-                putv self :justification %tmp.64;
+                symbol [ Graphics %tmp.56 76 34 42 ];
+                %tmp.56 = getm $.Toybox.Graphics;
+                symbol [ TEXT_JUSTIFY_CENTER %tmp.57 76 43 62 ];
+                %tmp.57 = getv %tmp.56 :TEXT_JUSTIFY_CENTER;
+                symbol [ Graphics %tmp.58 76 63 71 ];
+                %tmp.58 = getm $.Toybox.Graphics;
+                symbol [ TEXT_JUSTIFY_VCENTER %tmp.59 76 72 92 ];
+                %tmp.59 = getv %tmp.58 :TEXT_JUSTIFY_VCENTER;
+                %tmp.60 = bitor %tmp.57 %tmp.59;
+                putv self :justification %tmp.60;
 [ "/Users/n2o/repos/garmin/helloworld/bin/gen/006-B4532-00/source/Rez.mcgen" 77 18 ]
-                symbol [ Graphics %tmp.65 77 25 33 ];
-                %tmp.65 = getm $.Toybox.Graphics;
-                symbol [ FONT_XTINY %tmp.66 77 34 44 ];
-                %tmp.66 = getv %tmp.65 :FONT_XTINY;
-                putv self :font %tmp.66;
+                symbol [ Graphics %tmp.61 77 25 33 ];
+                %tmp.61 = getm $.Toybox.Graphics;
+                symbol [ FONT_XTINY %tmp.62 77 34 44 ];
+                %tmp.62 = getv %tmp.61 :FONT_XTINY;
+                putv self :font %tmp.62;
             }
             [ @file = "/Users/n2o/repos/garmin/helloworld/bin/gen/006-B4532-00/source/Rez.mcgen"; @line = 76; @position = 18; @symbol_constdef = [justification,76,18,31]; ]
             const justification;
@@ -285,11 +277,11 @@ _Users_n2o_repos_garmin_helloworld_bin_gen_006_B4532_00_source_Rez_mcgen_13_73_1
             [ @file = "/Users/n2o/repos/garmin/helloworld/bin/gen/006-B4532-00/source/Rez.mcgen"; @line = 92; ]
             <init> {
 [ "/Users/n2o/repos/garmin/helloworld/bin/gen/006-B4532-00/source/Rez.mcgen" 94 18 ]
-                symbol [ Graphics %tmp.67 94 31 39 ];
-                %tmp.67 = getm $.Toybox.Graphics;
-                symbol [ COLOR_TRANSPARENT %tmp.68 94 40 57 ];
-                %tmp.68 = getv %tmp.67 :COLOR_TRANSPARENT;
-                putv self :background %tmp.68;
+                symbol [ Graphics %tmp.63 94 31 39 ];
+                %tmp.63 = getm $.Toybox.Graphics;
+                symbol [ COLOR_TRANSPARENT %tmp.64 94 40 57 ];
+                %tmp.64 = getv %tmp.63 :COLOR_TRANSPARENT;
+                putv self :background %tmp.64;
             }
             [ @file = "/Users/n2o/repos/garmin/helloworld/bin/gen/006-B4532-00/source/Rez.mcgen"; @line = 93; @position = 18; @symbol_constdef = [color,93,18,23]; @symbol_type<0> = [Number,93,27,33]; ]
             const color as Number = 0xFFFFFF;
@@ -331,22 +323,22 @@ _Users_n2o_repos_garmin_helloworld_bin_gen_006_B4532_00_source_Rez_mcgen_13_73_1
             [ @file = "/Users/n2o/repos/garmin/helloworld/bin/gen/006-B4532-00/source/Rez.mcgen"; @line = 112; ]
             <init> {
 [ "/Users/n2o/repos/garmin/helloworld/bin/gen/006-B4532-00/source/Rez.mcgen" 113 18 ]
-                symbol [ Graphics %tmp.69 113 34 42 ];
-                %tmp.69 = getm $.Toybox.Graphics;
-                symbol [ TEXT_JUSTIFY_CENTER %tmp.70 113 43 62 ];
-                %tmp.70 = getv %tmp.69 :TEXT_JUSTIFY_CENTER;
-                symbol [ Graphics %tmp.71 113 63 71 ];
-                %tmp.71 = getm $.Toybox.Graphics;
-                symbol [ TEXT_JUSTIFY_VCENTER %tmp.72 113 72 92 ];
-                %tmp.72 = getv %tmp.71 :TEXT_JUSTIFY_VCENTER;
-                %tmp.73 = bitor %tmp.70 %tmp.72;
-                putv self :justification %tmp.73;
+                symbol [ Graphics %tmp.65 113 34 42 ];
+                %tmp.65 = getm $.Toybox.Graphics;
+                symbol [ TEXT_JUSTIFY_CENTER %tmp.66 113 43 62 ];
+                %tmp.66 = getv %tmp.65 :TEXT_JUSTIFY_CENTER;
+                symbol [ Graphics %tmp.67 113 63 71 ];
+                %tmp.67 = getm $.Toybox.Graphics;
+                symbol [ TEXT_JUSTIFY_VCENTER %tmp.68 113 72 92 ];
+                %tmp.68 = getv %tmp.67 :TEXT_JUSTIFY_VCENTER;
+                %tmp.69 = bitor %tmp.66 %tmp.68;
+                putv self :justification %tmp.69;
 [ "/Users/n2o/repos/garmin/helloworld/bin/gen/006-B4532-00/source/Rez.mcgen" 114 18 ]
-                symbol [ Graphics %tmp.74 114 25 33 ];
-                %tmp.74 = getm $.Toybox.Graphics;
-                symbol [ FONT_TINY %tmp.75 114 34 43 ];
-                %tmp.75 = getv %tmp.74 :FONT_TINY;
-                putv self :font %tmp.75;
+                symbol [ Graphics %tmp.70 114 25 33 ];
+                %tmp.70 = getm $.Toybox.Graphics;
+                symbol [ FONT_TINY %tmp.71 114 34 43 ];
+                %tmp.71 = getv %tmp.70 :FONT_TINY;
+                putv self :font %tmp.71;
             }
             [ @file = "/Users/n2o/repos/garmin/helloworld/bin/gen/006-B4532-00/source/Rez.mcgen"; @line = 113; @position = 18; @symbol_constdef = [justification,113,18,31]; ]
             const justification;
@@ -390,11 +382,11 @@ _Users_n2o_repos_garmin_helloworld_bin_gen_006_B4532_00_source_Rez_mcgen_13_73_1
             [ @file = "/Users/n2o/repos/garmin/helloworld/bin/gen/006-B4532-00/source/Rez.mcgen"; @line = 133; ]
             <init> {
 [ "/Users/n2o/repos/garmin/helloworld/bin/gen/006-B4532-00/source/Rez.mcgen" 134 18 ]
-                symbol [ WatchUi %tmp.76 134 27 34 ];
-                %tmp.76 = getm $.Toybox.WatchUi;
-                symbol [ KEY_ENTER %tmp.77 134 35 44 ];
-                %tmp.77 = getv %tmp.76 :KEY_ENTER;
-                putv self :button %tmp.77;
+                symbol [ WatchUi %tmp.72 134 27 34 ];
+                %tmp.72 = getm $.Toybox.WatchUi;
+                symbol [ KEY_ENTER %tmp.73 134 35 44 ];
+                %tmp.73 = getv %tmp.72 :KEY_ENTER;
+                putv self :button %tmp.73;
             }
             [ @file = "/Users/n2o/repos/garmin/helloworld/bin/gen/006-B4532-00/source/Rez.mcgen"; @line = 134; @position = 18; @symbol_constdef = [button,134,18,24]; ]
             const button;
@@ -404,17 +396,17 @@ _Users_n2o_repos_garmin_helloworld_bin_gen_006_B4532_00_source_Rez_mcgen_13_73_1
             [ @file = "/Users/n2o/repos/garmin/helloworld/bin/gen/006-B4532-00/source/Rez.mcgen"; @line = 137; ]
             <init> {
 [ "/Users/n2o/repos/garmin/helloworld/bin/gen/006-B4532-00/source/Rez.mcgen" 138 18 ]
-                symbol [ Graphics %tmp.78 138 34 42 ];
-                %tmp.78 = getm $.Toybox.Graphics;
-                symbol [ TEXT_JUSTIFY_CENTER %tmp.79 138 43 62 ];
-                %tmp.79 = getv %tmp.78 :TEXT_JUSTIFY_CENTER;
-                putv self :justification %tmp.79;
+                symbol [ Graphics %tmp.74 138 34 42 ];
+                %tmp.74 = getm $.Toybox.Graphics;
+                symbol [ TEXT_JUSTIFY_CENTER %tmp.75 138 43 62 ];
+                %tmp.75 = getv %tmp.74 :TEXT_JUSTIFY_CENTER;
+                putv self :justification %tmp.75;
 [ "/Users/n2o/repos/garmin/helloworld/bin/gen/006-B4532-00/source/Rez.mcgen" 139 18 ]
-                symbol [ Graphics %tmp.80 139 25 33 ];
-                %tmp.80 = getm $.Toybox.Graphics;
-                symbol [ FONT_TINY %tmp.81 139 34 43 ];
-                %tmp.81 = getv %tmp.80 :FONT_TINY;
-                putv self :font %tmp.81;
+                symbol [ Graphics %tmp.76 139 25 33 ];
+                %tmp.76 = getm $.Toybox.Graphics;
+                symbol [ FONT_TINY %tmp.77 139 34 43 ];
+                %tmp.77 = getv %tmp.76 :FONT_TINY;
+                putv self :font %tmp.77;
             }
             [ @file = "/Users/n2o/repos/garmin/helloworld/bin/gen/006-B4532-00/source/Rez.mcgen"; @line = 138; @position = 18; @symbol_constdef = [justification,138,18,31]; ]
             const justification;
@@ -526,11 +518,11 @@ _Users_n2o_repos_garmin_helloworld_bin_gen_006_B4532_00_source_Rez_mcgen_13_73_1
             [ @file = "/Users/n2o/repos/garmin/helloworld/bin/gen/006-B4532-00/source/Rez.mcgen"; @line = 192; ]
             <init> {
 [ "/Users/n2o/repos/garmin/helloworld/bin/gen/006-B4532-00/source/Rez.mcgen" 193 18 ]
-                symbol [ WatchUi %tmp.82 193 27 34 ];
-                %tmp.82 = getm $.Toybox.WatchUi;
-                symbol [ KEY_ENTER %tmp.83 193 35 44 ];
-                %tmp.83 = getv %tmp.82 :KEY_ENTER;
-                putv self :button %tmp.83;
+                symbol [ WatchUi %tmp.78 193 27 34 ];
+                %tmp.78 = getm $.Toybox.WatchUi;
+                symbol [ KEY_ENTER %tmp.79 193 35 44 ];
+                %tmp.79 = getv %tmp.78 :KEY_ENTER;
+                putv self :button %tmp.79;
             }
             [ @file = "/Users/n2o/repos/garmin/helloworld/bin/gen/006-B4532-00/source/Rez.mcgen"; @line = 193; @position = 18; @symbol_constdef = [button,193,18,24]; ]
             const button;
@@ -550,11 +542,11 @@ _Users_n2o_repos_garmin_helloworld_bin_gen_006_B4532_00_source_Rez_mcgen_13_73_1
             [ @file = "/Users/n2o/repos/garmin/helloworld/bin/gen/006-B4532-00/source/Rez.mcgen"; @line = 201; ]
             <init> {
 [ "/Users/n2o/repos/garmin/helloworld/bin/gen/006-B4532-00/source/Rez.mcgen" 202 18 ]
-                symbol [ WatchUi %tmp.84 202 27 34 ];
-                %tmp.84 = getm $.Toybox.WatchUi;
-                symbol [ KEY_ENTER %tmp.85 202 35 44 ];
-                %tmp.85 = getv %tmp.84 :KEY_ENTER;
-                putv self :button %tmp.85;
+                symbol [ WatchUi %tmp.80 202 27 34 ];
+                %tmp.80 = getm $.Toybox.WatchUi;
+                symbol [ KEY_ENTER %tmp.81 202 35 44 ];
+                %tmp.81 = getv %tmp.80 :KEY_ENTER;
+                putv self :button %tmp.81;
             }
             [ @file = "/Users/n2o/repos/garmin/helloworld/bin/gen/006-B4532-00/source/Rez.mcgen"; @line = 202; @position = 18; @symbol_constdef = [button,202,18,24]; ]
             const button;
@@ -574,11 +566,11 @@ _Users_n2o_repos_garmin_helloworld_bin_gen_006_B4532_00_source_Rez_mcgen_13_73_1
             [ @file = "/Users/n2o/repos/garmin/helloworld/bin/gen/006-B4532-00/source/Rez.mcgen"; @line = 210; ]
             <init> {
 [ "/Users/n2o/repos/garmin/helloworld/bin/gen/006-B4532-00/source/Rez.mcgen" 212 18 ]
-                symbol [ Graphics %tmp.86 212 31 39 ];
-                %tmp.86 = getm $.Toybox.Graphics;
-                symbol [ COLOR_TRANSPARENT %tmp.87 212 40 57 ];
-                %tmp.87 = getv %tmp.86 :COLOR_TRANSPARENT;
-                putv self :background %tmp.87;
+                symbol [ Graphics %tmp.82 212 31 39 ];
+                %tmp.82 = getm $.Toybox.Graphics;
+                symbol [ COLOR_TRANSPARENT %tmp.83 212 40 57 ];
+                %tmp.83 = getv %tmp.82 :COLOR_TRANSPARENT;
+                putv self :background %tmp.83;
             }
             [ @file = "/Users/n2o/repos/garmin/helloworld/bin/gen/006-B4532-00/source/Rez.mcgen"; @line = 211; @position = 18; @symbol_constdef = [color,211,18,23]; @symbol_type<0> = [Number,211,27,33]; ]
             const color as Number = 0x000000;
@@ -608,11 +600,11 @@ _Users_n2o_repos_garmin_helloworld_bin_gen_006_B4532_00_source_Rez_mcgen_13_73_1
             [ @file = "/Users/n2o/repos/garmin/helloworld/bin/gen/006-B4532-00/source/Rez.mcgen"; @line = 224; ]
             <init> {
 [ "/Users/n2o/repos/garmin/helloworld/bin/gen/006-B4532-00/source/Rez.mcgen" 226 18 ]
-                symbol [ Graphics %tmp.88 226 31 39 ];
-                %tmp.88 = getm $.Toybox.Graphics;
-                symbol [ COLOR_TRANSPARENT %tmp.89 226 40 57 ];
-                %tmp.89 = getv %tmp.88 :COLOR_TRANSPARENT;
-                putv self :background %tmp.89;
+                symbol [ Graphics %tmp.84 226 31 39 ];
+                %tmp.84 = getm $.Toybox.Graphics;
+                symbol [ COLOR_TRANSPARENT %tmp.85 226 40 57 ];
+                %tmp.85 = getv %tmp.84 :COLOR_TRANSPARENT;
+                putv self :background %tmp.85;
             }
             [ @file = "/Users/n2o/repos/garmin/helloworld/bin/gen/006-B4532-00/source/Rez.mcgen"; @line = 225; @position = 18; @symbol_constdef = [color,225,18,23]; @symbol_type<0> = [Number,225,27,33]; ]
             const color as Number = 0x000000;
@@ -704,11 +696,11 @@ _Users_n2o_repos_garmin_helloworld_bin_gen_006_B4532_00_source_Rez_mcgen_13_73_1
             [ @file = "/Users/n2o/repos/garmin/helloworld/bin/gen/006-B4532-00/source/Rez.mcgen"; @line = 269; ]
             <init> {
 [ "/Users/n2o/repos/garmin/helloworld/bin/gen/006-B4532-00/source/Rez.mcgen" 271 18 ]
-                symbol [ Graphics %tmp.90 271 31 39 ];
-                %tmp.90 = getm $.Toybox.Graphics;
-                symbol [ COLOR_TRANSPARENT %tmp.91 271 40 57 ];
-                %tmp.91 = getv %tmp.90 :COLOR_TRANSPARENT;
-                putv self :background %tmp.91;
+                symbol [ Graphics %tmp.86 271 31 39 ];
+                %tmp.86 = getm $.Toybox.Graphics;
+                symbol [ COLOR_TRANSPARENT %tmp.87 271 40 57 ];
+                %tmp.87 = getv %tmp.86 :COLOR_TRANSPARENT;
+                putv self :background %tmp.87;
             }
             [ @file = "/Users/n2o/repos/garmin/helloworld/bin/gen/006-B4532-00/source/Rez.mcgen"; @line = 270; @position = 18; @symbol_constdef = [color,270,18,23]; @symbol_type<0> = [Number,270,27,33]; ]
             const color as Number = 0xFFFFFF;
@@ -720,11 +712,11 @@ _Users_n2o_repos_garmin_helloworld_bin_gen_006_B4532_00_source_Rez_mcgen_13_73_1
             [ @file = "/Users/n2o/repos/garmin/helloworld/bin/gen/006-B4532-00/source/Rez.mcgen"; @line = 274; ]
             <init> {
 [ "/Users/n2o/repos/garmin/helloworld/bin/gen/006-B4532-00/source/Rez.mcgen" 275 18 ]
-                symbol [ WatchUi %tmp.92 275 27 34 ];
-                %tmp.92 = getm $.Toybox.WatchUi;
-                symbol [ KEY_DOWN %tmp.93 275 35 43 ];
-                %tmp.93 = getv %tmp.92 :KEY_DOWN;
-                putv self :button %tmp.93;
+                symbol [ WatchUi %tmp.88 275 27 34 ];
+                %tmp.88 = getm $.Toybox.WatchUi;
+                symbol [ KEY_DOWN %tmp.89 275 35 43 ];
+                %tmp.89 = getv %tmp.88 :KEY_DOWN;
+                putv self :button %tmp.89;
             }
             [ @file = "/Users/n2o/repos/garmin/helloworld/bin/gen/006-B4532-00/source/Rez.mcgen"; @line = 275; @position = 18; @symbol_constdef = [button,275,18,24]; ]
             const button;
@@ -758,11 +750,11 @@ _Users_n2o_repos_garmin_helloworld_bin_gen_006_B4532_00_source_Rez_mcgen_13_73_1
             [ @file = "/Users/n2o/repos/garmin/helloworld/bin/gen/006-B4532-00/source/Rez.mcgen"; @line = 290; ]
             <init> {
 [ "/Users/n2o/repos/garmin/helloworld/bin/gen/006-B4532-00/source/Rez.mcgen" 292 18 ]
-                symbol [ Graphics %tmp.94 292 31 39 ];
-                %tmp.94 = getm $.Toybox.Graphics;
-                symbol [ COLOR_TRANSPARENT %tmp.95 292 40 57 ];
-                %tmp.95 = getv %tmp.94 :COLOR_TRANSPARENT;
-                putv self :background %tmp.95;
+                symbol [ Graphics %tmp.90 292 31 39 ];
+                %tmp.90 = getm $.Toybox.Graphics;
+                symbol [ COLOR_TRANSPARENT %tmp.91 292 40 57 ];
+                %tmp.91 = getv %tmp.90 :COLOR_TRANSPARENT;
+                putv self :background %tmp.91;
             }
             [ @file = "/Users/n2o/repos/garmin/helloworld/bin/gen/006-B4532-00/source/Rez.mcgen"; @line = 291; @position = 18; @symbol_constdef = [color,291,18,23]; @symbol_type<0> = [Number,291,27,33]; ]
             const color as Number = 0x000000;
@@ -858,11 +850,11 @@ _Users_n2o_repos_garmin_helloworld_bin_gen_006_B4532_00_source_Rez_mcgen_13_73_1
             [ @file = "/Users/n2o/repos/garmin/helloworld/bin/gen/006-B4532-00/source/Rez.mcgen"; @line = 337; ]
             <init> {
 [ "/Users/n2o/repos/garmin/helloworld/bin/gen/006-B4532-00/source/Rez.mcgen" 339 18 ]
-                symbol [ Graphics %tmp.96 339 31 39 ];
-                %tmp.96 = getm $.Toybox.Graphics;
-                symbol [ COLOR_TRANSPARENT %tmp.97 339 40 57 ];
-                %tmp.97 = getv %tmp.96 :COLOR_TRANSPARENT;
-                putv self :background %tmp.97;
+                symbol [ Graphics %tmp.92 339 31 39 ];
+                %tmp.92 = getm $.Toybox.Graphics;
+                symbol [ COLOR_TRANSPARENT %tmp.93 339 40 57 ];
+                %tmp.93 = getv %tmp.92 :COLOR_TRANSPARENT;
+                putv self :background %tmp.93;
             }
             [ @file = "/Users/n2o/repos/garmin/helloworld/bin/gen/006-B4532-00/source/Rez.mcgen"; @line = 338; @position = 18; @symbol_constdef = [color,338,18,23]; @symbol_type<0> = [Number,338,27,33]; ]
             const color as Number = 0xFFFFFF;
@@ -884,11 +876,11 @@ _Users_n2o_repos_garmin_helloworld_bin_gen_006_B4532_00_source_Rez_mcgen_13_73_1
             [ @file = "/Users/n2o/repos/garmin/helloworld/bin/gen/006-B4532-00/source/Rez.mcgen"; @line = 347; ]
             <init> {
 [ "/Users/n2o/repos/garmin/helloworld/bin/gen/006-B4532-00/source/Rez.mcgen" 349 18 ]
-                symbol [ Graphics %tmp.98 349 31 39 ];
-                %tmp.98 = getm $.Toybox.Graphics;
-                symbol [ COLOR_TRANSPARENT %tmp.99 349 40 57 ];
-                %tmp.99 = getv %tmp.98 :COLOR_TRANSPARENT;
-                putv self :background %tmp.99;
+                symbol [ Graphics %tmp.94 349 31 39 ];
+                %tmp.94 = getm $.Toybox.Graphics;
+                symbol [ COLOR_TRANSPARENT %tmp.95 349 40 57 ];
+                %tmp.95 = getv %tmp.94 :COLOR_TRANSPARENT;
+                putv self :background %tmp.95;
             }
             [ @file = "/Users/n2o/repos/garmin/helloworld/bin/gen/006-B4532-00/source/Rez.mcgen"; @line = 348; @position = 18; @symbol_constdef = [color,348,18,23]; @symbol_type<0> = [Number,348,27,33]; ]
             const color as Number = 0xFFFFFF;
@@ -938,11 +930,11 @@ _Users_n2o_repos_garmin_helloworld_bin_gen_006_B4532_00_source_Rez_mcgen_13_73_1
             [ @file = "/Users/n2o/repos/garmin/helloworld/bin/gen/006-B4532-00/source/Rez.mcgen"; @line = 371; ]
             <init> {
 [ "/Users/n2o/repos/garmin/helloworld/bin/gen/006-B4532-00/source/Rez.mcgen" 373 18 ]
-                symbol [ Graphics %tmp.100 373 31 39 ];
-                %tmp.100 = getm $.Toybox.Graphics;
-                symbol [ COLOR_TRANSPARENT %tmp.101 373 40 57 ];
-                %tmp.101 = getv %tmp.100 :COLOR_TRANSPARENT;
-                putv self :background %tmp.101;
+                symbol [ Graphics %tmp.96 373 31 39 ];
+                %tmp.96 = getm $.Toybox.Graphics;
+                symbol [ COLOR_TRANSPARENT %tmp.97 373 40 57 ];
+                %tmp.97 = getv %tmp.96 :COLOR_TRANSPARENT;
+                putv self :background %tmp.97;
             }
             [ @file = "/Users/n2o/repos/garmin/helloworld/bin/gen/006-B4532-00/source/Rez.mcgen"; @line = 372; @position = 18; @symbol_constdef = [color,372,18,23]; @symbol_type<0> = [Number,372,27,33]; ]
             const color as Number = 0x000000;
@@ -1186,11 +1178,11 @@ _Users_n2o_repos_garmin_helloworld_bin_gen_006_B4532_00_source_Rez_mcgen_13_73_1
             [ @file = "/Users/n2o/repos/garmin/helloworld/bin/gen/006-B4532-00/source/Rez.mcgen"; @line = 492; ]
             <init> {
 [ "/Users/n2o/repos/garmin/helloworld/bin/gen/006-B4532-00/source/Rez.mcgen" 494 18 ]
-                symbol [ Graphics %tmp.102 494 31 39 ];
-                %tmp.102 = getm $.Toybox.Graphics;
-                symbol [ COLOR_TRANSPARENT %tmp.103 494 40 57 ];
-                %tmp.103 = getv %tmp.102 :COLOR_TRANSPARENT;
-                putv self :background %tmp.103;
+                symbol [ Graphics %tmp.98 494 31 39 ];
+                %tmp.98 = getm $.Toybox.Graphics;
+                symbol [ COLOR_TRANSPARENT %tmp.99 494 40 57 ];
+                %tmp.99 = getv %tmp.98 :COLOR_TRANSPARENT;
+                putv self :background %tmp.99;
             }
             [ @file = "/Users/n2o/repos/garmin/helloworld/bin/gen/006-B4532-00/source/Rez.mcgen"; @line = 493; @position = 18; @symbol_constdef = [color,493,18,23]; @symbol_type<0> = [Number,493,27,33]; ]
             const color as Number = 0x000000;
@@ -1212,11 +1204,11 @@ _Users_n2o_repos_garmin_helloworld_bin_gen_006_B4532_00_source_Rez_mcgen_13_73_1
             [ @file = "/Users/n2o/repos/garmin/helloworld/bin/gen/006-B4532-00/source/Rez.mcgen"; @line = 502; ]
             <init> {
 [ "/Users/n2o/repos/garmin/helloworld/bin/gen/006-B4532-00/source/Rez.mcgen" 503 18 ]
-                symbol [ WatchUi %tmp.104 503 27 34 ];
-                %tmp.104 = getm $.Toybox.WatchUi;
-                symbol [ KEY_DOWN %tmp.105 503 35 43 ];
-                %tmp.105 = getv %tmp.104 :KEY_DOWN;
-                putv self :button %tmp.105;
+                symbol [ WatchUi %tmp.100 503 27 34 ];
+                %tmp.100 = getm $.Toybox.WatchUi;
+                symbol [ KEY_DOWN %tmp.101 503 35 43 ];
+                %tmp.101 = getv %tmp.100 :KEY_DOWN;
+                putv self :button %tmp.101;
             }
             [ @file = "/Users/n2o/repos/garmin/helloworld/bin/gen/006-B4532-00/source/Rez.mcgen"; @line = 503; @position = 18; @symbol_constdef = [button,503,18,24]; ]
             const button;
@@ -1386,13 +1378,13 @@ _Users_n2o_repos_garmin_helloworld_bin_gen_006_B4532_00_source_Rez_mcgen_13_73_1
             [ @file = "/Users/n2o/repos/garmin/helloworld/bin/gen/006-B4532-00/source/Rez.mcgen"; @line = 586; ]
             <init> {
 [ "/Users/n2o/repos/garmin/helloworld/bin/gen/006-B4532-00/source/Rez.mcgen" 588 18 ]
-                symbol [ Toybox %tmp.107 588 32 38 ];
-                %tmp.107 = getv ? :Toybox;
-                symbol [ System %tmp.108 588 39 45 ];
-                %tmp.108 = getv %tmp.107 :System;
-                symbol [ SCREEN_SHAPE_ROUND %tmp.109 588 46 64 ];
-                %tmp.109 = getv %tmp.108 :SCREEN_SHAPE_ROUND;
-                putv self :screenShape %tmp.109;
+                symbol [ Toybox %tmp.103 588 32 38 ];
+                %tmp.103 = getv ? :Toybox;
+                symbol [ System %tmp.104 588 39 45 ];
+                %tmp.104 = getv %tmp.103 :System;
+                symbol [ SCREEN_SHAPE_ROUND %tmp.105 588 46 64 ];
+                %tmp.105 = getv %tmp.104 :SCREEN_SHAPE_ROUND;
+                putv self :screenShape %tmp.105;
             }
             [ @file = "/Users/n2o/repos/garmin/helloworld/bin/gen/006-B4532-00/source/Rez.mcgen"; @line = 587; @position = 18; @symbol_constdef = [screenWidth,587,18,29]; @symbol_type<0> = [Number,587,33,39]; ]
             const screenWidth as Number = 260;
@@ -1424,22 +1416,22 @@ _Users_n2o_repos_garmin_helloworld_bin_gen_006_B4532_00_source_Rez_mcgen_13_73_1
             [ @file = "/Users/n2o/repos/garmin/helloworld/bin/gen/006-B4532-00/source/Rez.mcgen"; @line = 601; ]
             <init> {
 [ "/Users/n2o/repos/garmin/helloworld/bin/gen/006-B4532-00/source/Rez.mcgen" 602 18 ]
-                symbol [ Graphics %tmp.110 602 34 42 ];
-                %tmp.110 = getm $.Toybox.Graphics;
-                symbol [ TEXT_JUSTIFY_CENTER %tmp.111 602 43 62 ];
-                %tmp.111 = getv %tmp.110 :TEXT_JUSTIFY_CENTER;
-                symbol [ Graphics %tmp.112 602 63 71 ];
-                %tmp.112 = getm $.Toybox.Graphics;
-                symbol [ TEXT_JUSTIFY_VCENTER %tmp.113 602 72 92 ];
-                %tmp.113 = getv %tmp.112 :TEXT_JUSTIFY_VCENTER;
-                %tmp.114 = bitor %tmp.111 %tmp.113;
-                putv self :justification %tmp.114;
+                symbol [ Graphics %tmp.106 602 34 42 ];
+                %tmp.106 = getm $.Toybox.Graphics;
+                symbol [ TEXT_JUSTIFY_CENTER %tmp.107 602 43 62 ];
+                %tmp.107 = getv %tmp.106 :TEXT_JUSTIFY_CENTER;
+                symbol [ Graphics %tmp.108 602 63 71 ];
+                %tmp.108 = getm $.Toybox.Graphics;
+                symbol [ TEXT_JUSTIFY_VCENTER %tmp.109 602 72 92 ];
+                %tmp.109 = getv %tmp.108 :TEXT_JUSTIFY_VCENTER;
+                %tmp.110 = bitor %tmp.107 %tmp.109;
+                putv self :justification %tmp.110;
 [ "/Users/n2o/repos/garmin/helloworld/bin/gen/006-B4532-00/source/Rez.mcgen" 603 18 ]
-                symbol [ Graphics %tmp.115 603 25 33 ];
-                %tmp.115 = getm $.Toybox.Graphics;
-                symbol [ FONT_TINY %tmp.116 603 34 43 ];
-                %tmp.116 = getv %tmp.115 :FONT_TINY;
-                putv self :font %tmp.116;
+                symbol [ Graphics %tmp.111 603 25 33 ];
+                %tmp.111 = getm $.Toybox.Graphics;
+                symbol [ FONT_TINY %tmp.112 603 34 43 ];
+                %tmp.112 = getv %tmp.111 :FONT_TINY;
+                putv self :font %tmp.112;
             }
             [ @file = "/Users/n2o/repos/garmin/helloworld/bin/gen/006-B4532-00/source/Rez.mcgen"; @line = 602; @position = 18; @symbol_constdef = [justification,602,18,31]; ]
             const justification;
@@ -1497,11 +1489,11 @@ _Users_n2o_repos_garmin_helloworld_bin_gen_006_B4532_00_source_Rez_mcgen_13_73_1
             [ @file = "/Users/n2o/repos/garmin/helloworld/bin/gen/006-B4532-00/source/Rez.mcgen"; @line = 629; ]
             <init> {
 [ "/Users/n2o/repos/garmin/helloworld/bin/gen/006-B4532-00/source/Rez.mcgen" 631 18 ]
-                symbol [ Graphics %tmp.117 631 31 39 ];
-                %tmp.117 = getm $.Toybox.Graphics;
-                symbol [ COLOR_TRANSPARENT %tmp.118 631 40 57 ];
-                %tmp.118 = getv %tmp.117 :COLOR_TRANSPARENT;
-                putv self :background %tmp.118;
+                symbol [ Graphics %tmp.113 631 31 39 ];
+                %tmp.113 = getm $.Toybox.Graphics;
+                symbol [ COLOR_TRANSPARENT %tmp.114 631 40 57 ];
+                %tmp.114 = getv %tmp.113 :COLOR_TRANSPARENT;
+                putv self :background %tmp.114;
             }
             [ @file = "/Users/n2o/repos/garmin/helloworld/bin/gen/006-B4532-00/source/Rez.mcgen"; @line = 630; @position = 18; @symbol_constdef = [color,630,18,23]; @symbol_type<0> = [Number,630,27,33]; ]
             const color as Number = 0xFFFFFF;
